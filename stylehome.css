@@ -1,0 +1,42 @@
+body {
+    background-color: #0f0f23;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    color: #cccccc
+}
+
+
+.title {
+    font-size: x-large;
+    padding: 5%;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    
+}
+
+button {
+    background-color: #cccccc;
+    border-color: #cccccc;
+    font-family: monospace;
+    font-size: large;
+    padding: 5px;
+}
+
+#coelho {
+    background-color: #00cc00;
+}
+
+#sara {
+    background-color: #ffff66;
+}
+
+#rosa {
+    background-color: #e14fa0;
+}

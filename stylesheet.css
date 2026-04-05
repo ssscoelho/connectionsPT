@@ -1,0 +1,62 @@
+/* cores:
+azul escuro: #0f0f23
+verde: #00cc00
+cinza: #cccccc
+amarelo: #ffff66
+rosa: #e14fa0
+silve: #9999cc
+*/
+
+
+
+body {
+    background-color: #0f0f23;
+    display: flex;
+    justify-content: left;
+    font-family: monospace;
+}
+
+
+.scoreboard {
+    position: fixed;
+    color: #cccccc;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: large;
+    z-index: 999;
+}
+
+.board {
+    padding-top: 50px;
+    position: absolute;
+}
+
+.tile {
+    background-color: #cccccc;
+    font-family: monospace;
+    padding: 5px;
+}
+
+.selected {
+    background-color: #e14fa0;
+    font-weight: bold;
+    color: #0f0f23;
+    font-family: monospace;
+    padding: 5px;
+}
+
+.group {
+    background-color: #ffff66;
+    font-weight: bold;
+    font-family: monospace;
+    padding: 5px;
+    text-wrap: balance;
+}
+
+.finished {
+    background-color: #9999cc;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
